@@ -11,5 +11,5 @@ int main() {
     auto sess = testgen::init();
     auto a = gen(sess);
     auto b = gen(sess);
-    printf("%lld %lld\n", a, b);
+    printf("%lld\n%lld\n", a, b);
 }
